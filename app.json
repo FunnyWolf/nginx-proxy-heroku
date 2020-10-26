@@ -5,7 +5,7 @@
     "env": {
         "TARGET": {
             "description": "PortFwd target ipaddress:port",
-            "value": "baidu.com:443"
+            "value": "https://baidu.com:443"
         }
     },
     "website": "",
