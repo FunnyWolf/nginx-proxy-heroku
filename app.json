@@ -1,0 +1,14 @@
+{
+    "name": "PortFwd",
+    "description": "Deploy PortFwd on Heroku.",
+    "keywords": ["PortFwd"],
+    "env": {
+        "TARGET": {
+            "description": "PortFwd target ipaddress:port",
+            "value": "baidu.com:443"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
