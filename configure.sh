@@ -12,11 +12,6 @@ http {
     keepalive_timeout  300;
     server {
       listen "$PORT";
-      ssl on;
-      ssl_certificate /etc/nginx/ssl.crt;
-      ssl_certificate_key /etc/nginx/ssl.key;
-      ssl_session_timeout 60m;
-      ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
       server_name  127.0.0.1;
       gzip on;
       gzip_min_length 1k;
