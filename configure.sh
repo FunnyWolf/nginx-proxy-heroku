@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat << EOF > /usr/local/etc/v2ray/config.json
+cat << EOF > /etc/nginx/nginx.conf
 worker_processes  4;
 events {
     worker_connections  1024;
