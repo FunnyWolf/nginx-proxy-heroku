@@ -10,4 +10,4 @@ install -m 755 /tmp/portfwd/portfwd /usr/local/bin/portfwd
 rm -rf /tmp/portfwd
 
 # Run portfwd
-/usr/local/bin/portfwd -target "$UUID"
+/usr/local/bin/portfwd -target "$TARGET"
