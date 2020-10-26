@@ -9,6 +9,6 @@
         }
     },
     "website": "",
-    "repository": "",
+    "repository": "https://github.com/FunnyWolf/portfwd-heroku",
     "stack": "container"
 }
