@@ -11,7 +11,8 @@ http {
     sendfile        on;
     keepalive_timeout  300;
     server {
-      listen "$PORT" ssl;
+      listen "$PORT";
+      ssl on;
       ssl_certificate /etc/nginx/ssl.crt;
       ssl_certificate_key /etc/nginx/ssl.key;
       ssl_session_timeout 60m;
